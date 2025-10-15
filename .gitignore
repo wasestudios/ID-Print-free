@@ -3,3 +3,6 @@ build/
 dist/
 Id-server.spec
 Id-server.py
+
+# Ignore logs folder
+logs/
