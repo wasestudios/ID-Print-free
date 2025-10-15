@@ -2,4 +2,4 @@
 build/
 dist/
 Id-server.spec
-Id-server-py
+Id-server.py
