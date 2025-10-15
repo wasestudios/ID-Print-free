@@ -1,0 +1,5 @@
+# Ignorar carpetas de compilación y archivos generados por PyInstaller
+build/
+dist/
+Id-server.spec
+Id-server-py
