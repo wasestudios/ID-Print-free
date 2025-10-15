@@ -40,4 +40,27 @@ Consulta el archivo LICENSE para más detalles.
 
 ---
 
+## Recomendación para Descargar y Usar la Aplicación
+
+Se recomienda descargar la aplicación en formato **ZIP** y descomprimirla en una carpeta específica de su elección. Esto ayuda a evitar problemas relacionados con la seguridad de los archivos en Windows.
+
+### Posibles Problemas y Soluciones
+
+1. **Archivos Bloqueados por Windows**:
+   - Windows puede marcar algunos archivos como inseguros al descargarlos de Internet, lo que puede impedir su correcto funcionamiento.
+   - Si experimenta problemas, desbloquee los siguientes archivos manualmente:
+     - `caddy.exe`
+     - `iniciar_servidor.vbs`
+     - `detener_servidor.vbs`
+   - Para desbloquear un archivo:
+     1. Haga clic derecho en el archivo y seleccione **Propiedades**.
+     2. En la parte inferior de la ventana, marque la opción **Desbloquear** (si está disponible) y haga clic en **Aceptar**.
+
+2. **Ejecutar como Administrador**:
+   - Asegúrese de ejecutar los scripts (`iniciar_servidor.vbs` y `detener_servidor.vbs`) con permisos de administrador para evitar restricciones del sistema.
+
+Si sigue estas recomendaciones, la aplicación debería funcionar correctamente después de ser descargada.
+
+---
+
 Para soporte o licencias comerciales, contacta a: willyruiz95@gmail.com
