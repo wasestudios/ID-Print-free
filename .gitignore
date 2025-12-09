@@ -1,9 +1,7 @@
-# Ignorar carpetas de compilación y archivos generados por PyInstaller
+# Ignorar carpetas de compilación
 build/
 dist/
 *.spec
-*.exe
-Id-server.exe
 
 # Archivos de configuración locales
 config.json
