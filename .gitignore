@@ -6,6 +6,10 @@ dist/
 # Archivos de configuración locales
 config.json
 
+# Scripts de desarrollo
+Id-server.py
+build_exe.py
+
 # Ignore logs folder
 logs/
 
