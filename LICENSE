@@ -1,0 +1,38 @@
+
+
+Copyright (c) 2025 Carlos Willy Ruiz Villalobos
+
+Este software se distribuye bajo una licencia de uso dual:
+
+- **Uso personal, educativo o de prueba:**  
+  Permitido de forma gratuita. Puedes usar, modificar y compartir este software para fines personales, educativos o de prueba, siempre que no obtengas un beneficio comercial directo o indirecto.
+
+- **Uso comercial o empresarial:**  
+  Requiere la adquisición de una licencia comercial o permiso expreso del titular de los derechos.  
+  Para obtener una licencia comercial, contacta a: willyruiz95@gmail.com
+
+Queda prohibida la redistribución, sublicenciamiento o uso en productos/servicios comerciales sin autorización.
+
+
+Este software incluye componentes de terceros bajo sus propias licencias:
+
+- pystray (MIT License)
+  https://github.com/moses-palmer/pystray/blob/master/LICENSE.txt
+- Pillow (PIL Fork) (PIL Software License/MIT compatible)
+  https://github.com/python-pillow/Pillow/blob/main/LICENSE
+- psutil (BSD License)
+  https://github.com/giampaolo/psutil/blob/master/LICENSE
+- cryptography (Apache License 2.0 or BSD License)
+  https://github.com/pyca/cryptography/blob/main/LICENSE.APACHE
+  https://github.com/pyca/cryptography/blob/main/LICENSE.BSD
+- PHP (PHP License v3.01)
+  https://www.php.net/license/3_01.txt
+- Caddy (Apache License 2.0)
+  https://github.com/caddyserver/caddy/blob/master/LICENSE
+- tkinter (Python Software Foundation License, incluido en Python estándar)
+  https://docs.python.org/3/license.html
+- FontAwesome Free (CC BY 4.0 License)
+  https://fontawesome.com/license/free
+  Iconos convertidos de SVG a PNG para la interfaz gráfica.
+
+Por favor, revisa las licencias de cada componente para conocer sus términos de uso.

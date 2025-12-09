@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Habilitar CORS para todos los orígenes
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+Header always set Access-Control-Allow-Headers "X-Requested-With, Content-Type, Accept, Origin, Authorization"
+Header always set Access-Control-Allow-Credentials "false"
+
+# Responder a peticiones OPTIONS (preflight)
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=204,L]
+
+# Redirige todo a index.php si no es un archivo o directorio real
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]

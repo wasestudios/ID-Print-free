@@ -1,0 +1,25 @@
+# Ignorar carpetas de compilación y archivos generados por PyInstaller
+build/
+dist/
+*.spec
+*.exe
+Id-server.exe
+
+# Archivos de configuración locales
+config.json
+
+# Ignore logs folder
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
